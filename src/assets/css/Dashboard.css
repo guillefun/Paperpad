@@ -1,0 +1,20 @@
+.notes {
+  padding-top: 60px;
+}
+
+.sectionnotes p,
+.sectionnotes span,
+.sectionnotes a {
+  color: var(--font-color);
+}
+
+.sectionnotes {
+  margin: 25px;
+  padding: 25px;
+
+  border-radius: var(--border-radius);
+
+  background: var(--bg-color);
+
+  box-shadow: var(--box-shadow-up), var(--box-shadow-down);
+}

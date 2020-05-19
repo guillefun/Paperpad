@@ -1,0 +1,180 @@
+/* Position and sizing of burger button */
+.bm-burger-button {
+  margin-top: 5px;
+  position: fixed;
+  width: 46px;
+  height: 30px;
+  left: 25px;
+  top: 36px;
+
+  border-radius: 10px;
+  color: white;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: white;
+  border-radius: 10px;
+  margin: auto;
+  width: 70%;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: var(--font-color-hover);
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Disabling shadows for clickable cross button */
+.bm-cross-button button {
+  box-shadow: none;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: var(--font-color);
+}
+
+/*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background-color: var(--bg-color);
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: var(--bg-color-pressed);
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+  color: var(--icon-color);
+  font-size: 20px;
+  padding: 10px 25px 10px 0px;
+
+  margin: auto;
+  text-align: left;
+  text-decoration: none;
+}
+.menu-item:hover {
+  background: var(--icon-color-hover);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.menu-item {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.menu-item:hover > span {
+  padding: 10px;
+}
+
+.bm-item:hover {
+  text-decoration: none;
+}
+
+.bm-item:focus,
+.link {
+  color: var(--icon-color-hover);
+  text-decoration: none;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* Text of the list items */
+.bm-menu a {
+  padding: 1em;
+  text-transform: uppercase;
+  display: block;
+  color: var(--icon-color);
+  transition: background 0.3s, box-shadow 0.3s;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  border-radius: 20px;
+
+  box-shadow: var(--box-shadow-up), var(--box-shadow-down);
+}
+
+.bm-menu a:hover {
+  color: var(--icon-color-hover);
+  background: var(--icon-color-hover);
+  transition: 0.3s ease-out;
+}
+
+.bm-item-list a span {
+  margin-left: 10px;
+  font-weight: 700;
+  color: var(--font-color);
+}
+
+@keyframes colorTransition {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bm-menu {
+  height: 100%;
+  padding: 0%;
+  box-sizing: border-box;
+  overflow: auto;
+  background: #282c34;
+}
+
+nav {
+  display: block;
+}
+
+*,
+::after,
+::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.menu-item:active {
+  background-color: var(--bg-color-pressed);
+}
+
+.fa {
+  width: 1.28571429em;
+  display: inline-block;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa:focus {
+  font-weight: 400;
+}
+
+.bm-item-list h2 span {
+  color: white;
+}

@@ -1,0 +1,21 @@
+.note-paper {
+  padding: 10px;
+  position: block;
+  width: var(--note-min-width-size);
+  border-radius: var(--border-radius);
+  border: 1px rgb(194, 194, 194, 0.6) solid;
+
+  line-height: 20px;
+  overflow: hidden;
+  word-wrap: break-word;
+  background-color: rgb(42, 40, 40);
+}
+
+.note-header {
+  padding: 10px;
+}
+
+.note-text {
+  padding: auto;
+  margin: auto;
+}

@@ -1,0 +1,47 @@
+.notepopup-paper {
+  padding: 20px;
+  position: block;
+  top: 10%;
+
+  width: var(--note-max-width-size);
+  border-radius: var(--border-radius);
+  border: 1px rgb(194, 194, 194, 0.6) solid;
+
+  line-height: 20px;
+  overflow: hidden;
+  word-wrap: break-word;
+  background-color: rgb(42, 40, 40);
+
+  border-radius: 36px;
+  position: relative;
+
+  box-shadow: 0 15px 30px 10000px rgba(0, 0, 0, 0.5),
+    0 15px 35px 0 rgba(0, 0, 0, 0.5);
+
+  left: 55%;
+}
+.notepopup-container {
+  font-size: var(--font-size);
+  position: absolute;
+  z-index: 1110;
+}
+.notepopup-header {
+  padding: 10px;
+}
+
+.notepopup-text {
+  padding: auto;
+  margin: auto;
+}
+
+.close-popup {
+  margin: auto;
+  padding: auto;
+  position: relative;
+  left: 45%;
+  z-index: 2000;
+}
+
+.close-popup:hover {
+  color: rgb(255, 211, 14);
+}
