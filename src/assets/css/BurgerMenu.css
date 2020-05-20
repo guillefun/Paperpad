@@ -74,8 +74,21 @@
 }
 .menu-item:hover {
   background: var(--icon-color-hover);
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
+  animation-name: borderius;
+  animation-duration: 0.4s;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+@keyframes borderius {
+  from {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  to {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
 }
 
 .menu-item {
@@ -83,8 +96,32 @@
   padding-bottom: 10px;
 }
 
+.menu-item > span {
+  animation-name: depaddington;
+  animation-duration: 0.4s;
+}
+
+@keyframes depaddington {
+  from {
+    padding: 10px;
+  }
+  to {
+    padding: 0px;
+  }
+}
 .menu-item:hover > span {
+  animation-name: paddington;
+  animation-duration: 0.4s;
   padding: 10px;
+}
+
+@keyframes paddington {
+  from {
+    padding: 0px;
+  }
+  to {
+    padding: 10px;
+  }
 }
 
 .bm-item:hover {
