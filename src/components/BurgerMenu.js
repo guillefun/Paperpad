@@ -20,13 +20,15 @@ class BurgerMenu extends Component {
       >
         <nav className="bm-item-list">
           <h2 className="bm-item" tabIndex="0">
-            <span> PaperPad</span>
+            <span className="bm-item-title">PaperPad</span>
           </h2>
           <div id="notes-item" className="menu-item">
             <i className="fa fa-fw fas fa-info-circle"></i>
             <span>Notes</span>
           </div>
-          <ThemeSwitch />
+          {
+            //<ThemeSwitch />
+          }
         </nav>
       </Menu>
     );
