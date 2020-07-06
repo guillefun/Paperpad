@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Paperpad/static/css/main.90f79033.chunk.css",
+    "main.js": "/Paperpad/static/js/main.da7e851d.chunk.js",
+    "main.js.map": "/Paperpad/static/js/main.da7e851d.chunk.js.map",
+    "runtime-main.js": "/Paperpad/static/js/runtime-main.dab1eef8.js",
+    "runtime-main.js.map": "/Paperpad/static/js/runtime-main.dab1eef8.js.map",
+    "static/js/2.ac7c20c0.chunk.js": "/Paperpad/static/js/2.ac7c20c0.chunk.js",
+    "static/js/2.ac7c20c0.chunk.js.map": "/Paperpad/static/js/2.ac7c20c0.chunk.js.map",
+    "index.html": "/Paperpad/index.html",
+    "precache-manifest.df076a7d18d897fa01119f448d2441a5.js": "/Paperpad/precache-manifest.df076a7d18d897fa01119f448d2441a5.js",
+    "service-worker.js": "/Paperpad/service-worker.js",
+    "static/css/main.90f79033.chunk.css.map": "/Paperpad/static/css/main.90f79033.chunk.css.map",
+    "static/js/2.ac7c20c0.chunk.js.LICENSE.txt": "/Paperpad/static/js/2.ac7c20c0.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/Paperpad/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dab1eef8.js",
+    "static/js/2.ac7c20c0.chunk.js",
+    "static/css/main.90f79033.chunk.css",
+    "static/js/main.da7e851d.chunk.js"
+  ]
+}
